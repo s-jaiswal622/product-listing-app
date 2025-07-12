@@ -23,13 +23,16 @@ A responsive, filterable product listing application built with **React**, **Red
 
 ## 📁 Folder Structure
 
+
+```bash
 src/
-├── components/ # Reusable UI components (Dropdown, Shimmer)
-├── features/ # Filter sidebar, etc.
-├── pages/ # ProductListingPage.tsx
-├── slices/ # Redux slices (products, filters, favorites)
-├── types/ # TypeScript type definitions
-├── styles/ # CSS files
+├── components/       # Reusable UI components (Dropdown, Shimmer)
+├── features/         # Filter sidebar and related logic
+├── pages/            # ProductListingPage.tsx
+├── slices/           # Redux slices (products, filters, favorites)
+├── types/            # TypeScript type definitions
+├── styles/           # CSS files
+```
 
 
 ## 🧩 Getting Started
