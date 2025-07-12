@@ -1,4 +1,3 @@
-
 import { Shimmer } from "../../component/Shimmer";
 import ProductCard from "./ProductCard";
 import ProductListingPagination from "./ProductListingPagination";
@@ -6,15 +5,18 @@ import "./Styles.css";
 import { STATUS } from "../../types/status";
 import { useProducts } from "../../hooks/useProducts";
 import { ProductFilters } from "../../features/ProductFilters";
+import SearchBar from "../../component/SearchBar";
 
 const ProductListingPage = () => {
   const {
+    paginatedProducts,
     currentPage,
     setCurrentPage,
-    paginatedProducts,
-    filteredProducts,
     favorites,
     handleToggleFavorite,
+    searchTerm,
+    setSearchTerm,
+    filteredProducts,
     status,
     error,
     LIMIT,
@@ -26,6 +28,7 @@ const ProductListingPage = () => {
       <div className="product-page-content">
         <ProductFilters />
         <main className="product-main">
+          <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} className="products-search-bar"/>
           {status === STATUS.LOADING ? (
             <Shimmer productLength={10} />
           ) : status === STATUS.FAILED ? (
