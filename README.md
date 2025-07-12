@@ -40,10 +40,13 @@ src/
 ### Install dependencies
 ```bash
 npm install
+```
 
 
 Run the development server
+```bash
 npm run dev
+```
 
 💡 Bonus Features (Implemented)
 ✅ Client-side pagination
