@@ -1,4 +1,4 @@
-import '../pages/ProductListingPage/Styles.css';
+import '../App.css';
 
 export const Shimmer = ({ productLength }: { productLength: number }) => {
   return (
