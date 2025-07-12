@@ -49,6 +49,7 @@ npm run dev
 ```
 
 💡 Bonus Features (Implemented)
+
 ✅ Client-side pagination
 
 ✅ LocalStorage-based favorites persistence
