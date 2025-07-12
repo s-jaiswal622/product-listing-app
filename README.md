@@ -2,24 +2,19 @@
 
 A responsive, filterable product listing application built with **React**, **Redux Toolkit**, and **TypeScript**.
 
+
 ## 🚀 Features
 
-- 🛍️ Display products with image, title, price, category, and rating
-- 🔍 Filter by category and minimum rating
-- ↕️ Sort products by price (asc/desc)
-- ❤️ Mark/unmark favorites with visual icon
-- 📄 Pagination with numbered page controls
-- 📱 Responsive grid layout
-- 📌 Sticky sidebar filters
-- ⚙️ State managed with Redux
+- 🖼️ Display products with image, title, price, category, and rating
+- 🔍 Filter products by **category** and **minimum rating**
+- ↕️ Sort products by **price** (asc/desc)
+- ❤️ Add/remove products to a **favorites list**
+- ⭐ Highlight favorited products visually
+- 📄 **Client-side pagination** with numbered buttons
+- 📱 Responsive grid layout with sticky filter sidebar
+- ⚙️ State management with **Redux Toolkit**
 - 🔄 Product data fetched from [DummyJSON](https://dummyjson.com/)
 
-## 📦 Tech Stack
-
-- React + TypeScript
-- Redux Toolkit
-- CSS (custom styling)
-- Vite (for fast dev server & build)
 
 ## 📁 Folder Structure
 
@@ -53,6 +48,11 @@ npm run dev
 - ✨ **Shimmer UI** for better user experience  
 - 📄 **Client-side pagination**  
 - 💾 **Favorites persistence** using LocalStorage  
-- 🧱 **Clean Redux architecture** (modular slices)  
-- 📱 **Responsive design** with modern UX polish
+- 📱 **Responsive design** with modern UX polish 
 
+
+## 🌐 Live Demo
+
+Deployed on **Vercel**:
+
+🔗 [View App](https://product-listing-app-lac.vercel.app/)
