@@ -50,11 +50,9 @@ npm run dev
 
 💡 Bonus Features (Implemented)
 
-✅ Client-side pagination
-
-✅ LocalStorage-based favorites persistence
-
-✅ Clean modular Redux store
-
-✅ Responsive design and UX polish
+- ✨ **Shimmer UI** for better user experience  
+- 📄 **Client-side pagination**  
+- 💾 **Favorites persistence** using LocalStorage  
+- 🧱 **Clean Redux architecture** (modular slices)  
+- 📱 **Responsive design** with modern UX polish
 

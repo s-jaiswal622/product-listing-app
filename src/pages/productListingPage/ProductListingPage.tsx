@@ -10,7 +10,7 @@ import type { AppDispatch, RootState } from "../../store/Store";
 import { STATUS } from "../../types/status";
 import { toggleFavorite } from "../../slices/favoritesSlice";
 
-const LIMIT = 10;
+const LIMIT = 9;
 
 function ProductListingPage() {
   const [currentPage, setCurrentPage] = useState(1);
