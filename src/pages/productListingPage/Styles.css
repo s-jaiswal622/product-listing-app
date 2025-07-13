@@ -216,25 +216,34 @@
     background-position: 200% 0;
   }
 }
-
-
 @media (max-width: 768px) {
-  .product-filters {
-    display: none;
-  }
-
   .product-page-content {
     flex-direction: column;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .product-filters {
+    position: relative; 
+    left: auto;
+    width: 100%;         
+    height: auto;        
+    margin-bottom: 1rem;  
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    z-index: auto;
   }
 
   .product-main {
     margin-left: 0;
-    padding: 1rem;
+    padding: 0;
   }
 
   .product-page h1 {
     font-size: 1.5rem;
-    margin: 1rem 0;
+    padding: 10px;
   }
 
   .product-list {
@@ -242,6 +251,7 @@
     gap: 1rem;
   }
 }
+
 
 @media (max-width: 480px) {
   .product-list {
