@@ -28,29 +28,7 @@ const filtersSlice = createSlice({
       state.sortOrder = action.payload;
     },
 
-    clearFilters: (state) => {
-      state.category = '';
-      state.minRating = 0;
-      state.sortOrder = 'asc';
-    },
-
-    resetFilters: () => initialState,
-
-    setFilters: (state, action: PayloadAction<Partial<FiltersState>>) => {
-      const { category, minRating, sortOrder } = action.payload;
-
-      if (category !== undefined) {
-        state.category = category;
-      }
-
-      if (minRating !== undefined) {
-        state.minRating = Math.max(0, Math.min(5, minRating));
-      }
-
-      if (sortOrder !== undefined) {
-        state.sortOrder = sortOrder;
-      }
-    },
+    clearFilters: () => initialState,
   },
 });
 
@@ -59,8 +37,6 @@ export const {
   setMinRating,
   setSortOrder,
   clearFilters,
-  resetFilters,
-  setFilters,
 } = filtersSlice.actions;
 
 export default filtersSlice.reducer;
