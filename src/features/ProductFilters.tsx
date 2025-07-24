@@ -93,7 +93,7 @@ export const ProductFilters = React.memo(() => {
           onChange={handleRating}
           options={[
             { label: "All Ratings", value: 0 },
-            ...ratings.map((r) => ({ label: `${r}⭐️ & up`, value: r })),
+            ...ratings.map((r) => ({ label: `${r}⭐️ & above`, value: r })),
           ]}
         />
 
