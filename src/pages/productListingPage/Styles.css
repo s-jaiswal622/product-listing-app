@@ -7,7 +7,8 @@
 }
 
 .product-page h1 {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 1000;
   background-color: gray;
@@ -32,6 +33,7 @@
   position: fixed;
   left: 20px;
   width: 220px;
+  margin-top: 50px;  
   height: calc(100vh - 140px);
   overflow-y: auto;
   padding: 1rem;
@@ -64,6 +66,7 @@
 .product-main {
   margin-left: 260px;
   flex: 1;
+  margin-top: 50px;
   padding: 0 2rem 2rem;
   box-sizing: border-box;
   overflow: visible;
